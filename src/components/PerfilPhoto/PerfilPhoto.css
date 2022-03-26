@@ -1,0 +1,38 @@
+.container-principal-section{
+    text-align: center;
+    width: 90%;
+    margin: 7vh auto 7vh auto;
+}
+
+.img-principal-section{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.h3-principal-section{
+    color: #ffffffeb;
+    margin: 2rem 0 2rem 0;
+    font-family: pixel-font;
+    font-size: 2.5rem;
+}
+
+.container-h2-principal-section{
+    width: 100%;
+    margin: 0 auto;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 0px;
+    height: auto;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 0 0 15px rgb(253, 253, 253);
+}
+
+.h2-principal-section{
+    color: #ffffffeb;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    opacity:100%;
+    font-family: roboto-regular;
+}

@@ -1,0 +1,20 @@
+.navbar.navbar-expand-lg{
+    background-color: #0B0F1F !important;
+}
+
+.navbar-brand{
+    color: #ffffffeb !important;
+    font-family: dongle-regular;
+    font-size: 2rem !important;
+}
+
+.navbar-toggler{
+    border-color: #ffffffeb !important;
+}
+
+.navbar-collapse .navbar-nav .nav-link{
+    color: #ffffffeb !important;
+    font-family: dongle-regular;
+    font-size: 1.5rem;
+}
+

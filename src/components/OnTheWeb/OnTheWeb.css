@@ -1,0 +1,24 @@
+.container-ontheweb{
+    text-align: left;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.h2-ontheweb{
+    color: #ffffffeb;
+    font-family: pixel-font;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.container-img-ontheweb{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.img-ontheweb{
+    width: 1em;
+}
+
