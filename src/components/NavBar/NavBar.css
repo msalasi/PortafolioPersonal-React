@@ -18,3 +18,45 @@
     font-size: 1.5rem;
 }
 
+.navbar-collapse .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 90em) {
+    .navbar-collapse .navbar-nav .nav-link{
+        font-size: 2rem;
+    }
+
+    .navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top .container {
+        max-width: 768px;
+    }
+    
+}
+@media only screen and (max-width: 64em) {
+    .navbar-collapse .navbar-nav .nav-link{
+        font-size: 2rem;
+    }
+    
+}
+@media only screen and (max-width: 48em) {
+    .navbar-collapse .navbar-nav .nav-link{
+        font-size: 2rem;
+    }
+
+    .navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top .container {
+        max-width: 100%;
+    }
+    
+}
+@media only screen and (max-width: 27em) {
+    .navbar-collapse .navbar-nav .nav-link{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+

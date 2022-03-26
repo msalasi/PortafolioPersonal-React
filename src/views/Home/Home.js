@@ -7,7 +7,7 @@ import PerfilPhoto from "../../components/PerfilPhoto/PerfilPhoto.js";
 
 const Home = () => {
   return (
-    <>
+    <div className="container-main-section">
       <PerfilPhoto/>
       <PrincipalText
         title="Work"
@@ -21,7 +21,7 @@ I enjoy coming up with ideas to solve some real world problem using code."
       <OnTheWeb title="On the web"/>
       <PrincipalWorks title="<PrincipalWorks/>"/>
    
-    </>
+    </div>
   );
 };
 

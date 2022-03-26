@@ -1,0 +1,26 @@
+.container-principal-works{
+    text-align: center;
+    width: 100%;
+    margin:10vh auto 10vh auto;
+}
+
+.link-principal-works{
+    font-family: pixel-font;
+    font-size: 2rem;
+    color: #ffffffeb;
+    text-decoration: none;
+    border-radius: 10px;
+    height: auto;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(253 253 253);
+    text-align: center;
+    width: 85%;
+    padding: 5px;
+}
+
+.link-principal-works:hover{
+    color: #ffffffeb;
+}
+
+
+

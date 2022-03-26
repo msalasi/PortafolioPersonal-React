@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <>
       <div className="container-navbar-menu">
-        <Navbar collapseOnSelect expand="lg" bg="dark" sticky="top" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="dark" fixed="top" variant="dark">
           <Container>
             <Navbar.Brand href="/">Logo</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

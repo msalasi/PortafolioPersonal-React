@@ -1,11 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import './PrincipalWorks.css'
 
 function PrincipalWorks({title}) {
   return (
-    <div>
-        <Link to="/works">{title}</Link>
+    <div className='container-principal-works'>
+        <Link className='link-principal-works' to="/works">{title}</Link>
     </div>
   )
 }
