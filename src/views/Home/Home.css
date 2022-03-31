@@ -2,6 +2,13 @@ body{
     background-color: #0B0F1F !important;
 }
 
+@media only screen and (min-width: 1441px) {
+    .container-main-section{
+        width: 30%;
+        margin: 0 auto;
+    }
+}
+
 @media only screen and (max-width: 90em) {
     .container-main-section{
         width: 60%;

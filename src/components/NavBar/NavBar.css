@@ -22,13 +22,19 @@
     text-decoration: underline;
 }
 
+@media only screen and (min-width: 1441px) {
+    .container-navbar-menu .navbar .container{
+        max-width: 768px;
+    }
+}
+
 @media only screen and (max-width: 90em) {
     .navbar-collapse .navbar-nav .nav-link{
         font-size: 2rem;
     }
 
     .navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top .container {
-        max-width: 768px;
+        max-width: 1024px;
     }
     
 }

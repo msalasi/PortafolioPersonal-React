@@ -46,6 +46,18 @@
     font-family: roboto-regular;
 }
 
+@media only screen and (min-width: 1441px) {
+    .container-h2-principal-section {
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 10px;
+        height: auto;
+        align-items: center;
+        padding: 5px;
+        box-shadow: 0 0 15px rgb(253 253 253);
+    }
+}
+
 @media only screen and (max-width: 90em) {
     .container-h2-principal-section {
         width: 50%;
