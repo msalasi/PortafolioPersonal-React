@@ -1,9 +1,11 @@
 import React from "react";
 import './NavBar.css';
 import { Navbar, Container, Nav } from 'react-bootstrap';
-//import { Link } from "react-router-dom";
-
+import LightMode from '../Lightmode/LightMode.js';
 const NavBar = () => {
+    
+  
+
   return (
     <>
       <div className="container-navbar-menu">
@@ -16,7 +18,9 @@ const NavBar = () => {
                 <Nav.Link href="/works">Works</Nav.Link>
               </Nav>
               <Nav>
-                <Nav.Link href="#">Dark mode</Nav.Link>
+                <div className="form-check form-switch">
+                  <input className="form-check-input" type="checkbox" id="flexSwitchCheckChecked" onClick={LightMode}/>
+                </div>
               </Nav>
             </Navbar.Collapse>
           </Container>

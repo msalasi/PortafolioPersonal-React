@@ -60,5 +60,8 @@
     }
 }
 
+.light .container{
+    background-color: red;
+}
 
 
