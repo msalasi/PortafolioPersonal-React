@@ -60,8 +60,32 @@
     }
 }
 
+/*light mode*/
 .light .container{
-    background-color: red;
+    background-color: #F9F6F1;
 }
 
+.light .navbar-brand{
+    color: #202023 !important;
+}
+
+.light .navbar-nav .nav-link{
+    color: #202023 !important;
+}
+
+.light .navbar-dark .navbar-toggler {
+    color: #202023 !important;
+}
+
+.light .navbar-toggler.collapsed .navbar-toggler-icon{
+    color: #202023 !important;
+}
+
+.light .navbar-dark .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.light .navbar-dark .navbar-toggler {
+    border: 1px solid grey !important;
+}
 
