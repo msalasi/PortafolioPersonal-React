@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css';
+import '../../components/Lightmode/LightMode.css';
 import OnTheWeb from "../../components/OnTheWeb/OnTheWeb.js";
 import PrincipalText from "../../components/PrincipalText/PrincipalText.js";
 import PrincipalWorks from "../../components/PrincipalWorks/PrincipalWorks.js";

@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './PrincipalWorks.css'
+import '../Lightmode/LightMode.css';
 
 function PrincipalWorks({title}) {
   return (

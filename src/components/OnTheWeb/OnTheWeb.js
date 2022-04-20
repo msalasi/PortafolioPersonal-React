@@ -1,5 +1,6 @@
 import React from 'react'
 import './OnTheWeb.css';
+import '../Lightmode/LightMode.css';
 import github from '../../assets/icons/github.png';
 import instagram from '../../assets/icons/instagram.png';
 import linkedin from '../../assets/icons/linkedin.png';

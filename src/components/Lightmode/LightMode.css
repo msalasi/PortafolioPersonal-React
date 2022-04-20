@@ -1,0 +1,102 @@
+/*Navbar Section*/
+.container-light-mode h1{
+    font-size: 1.5rem;
+    color: #ffffffeb;
+    font-family: pixel-font;
+    margin-bottom: 0;
+    transition: color .80s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;    
+}
+
+.container-light-mode {
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+
+.light .navbar-brand{
+    color: #202023 !important;
+}
+
+.light .navbar-nav .nav-link{
+    color: #202023 !important;
+}
+
+.light .navbar-toggler.collapsed .navbar-toggler-icon{
+    color: #202023 !important;
+}
+
+.light .navbar-dark .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.light .navbar-dark .navbar-toggler {
+    border: 1px solid grey !important;
+}
+
+.light .navbar.navbar-expand-lg{
+    background-color: #F9F6F1 !important;
+}
+
+.light .container-light-mode h1{
+    color: #202023;
+    transition: color .80s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;    
+}
+
+.light .navbar.navbar-expand-lg{
+    background: #ffffff40 !important;
+    backdrop-filter: blur(10px);
+}
+/*End Navbar Section*/
+
+/*Perfil Photo Section*/
+.light .h3-principal-section{
+    color: #202023;
+    transition: color .80s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; 
+}
+
+.light .h2-principal-section{
+    color: #202023;
+    transition: color .80s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; 
+}
+
+.light .container-h2-principal-section{
+    box-shadow: 0 0 20px white;
+    border: 0.5px solid white;
+}
+/*Perfil Photo Section*/
+
+/*PrincipalText Section*/
+.light .h2-principal-text,
+.light .p-principal-text
+{
+    color: #202023;
+    transition: color .80s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; 
+}
+/*PrincipalText Section*/
+
+/*OnTheWeb Section*/
+.light .h2-ontheweb,
+.light .a-ontheweb
+{
+    color: #202023 !important;
+    transition: color .80s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; 
+}
+/*OnTheWeb Section*/
+
+/*PrincipalWorks Section*/
+.light .link-principal-works{
+    color: #FFFFFF;
+    box-shadow: 0 0 20px grey;
+    background-color: #319795;
+    transition: color .80s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; 
+}
+/*PrincipalWorks Section*/
+
+/*Home Section*/
+body.light{
+    background-color: #f0e7db !important;
+    transition: color .80s ease-in-out,background-color .50s ease-in-out,border-color .50s ease-in-out;
+}
+/*Home Section*/
+
+

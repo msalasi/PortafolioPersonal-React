@@ -1,5 +1,6 @@
 import React from 'react'
 import './PrincipalText.css';
+import '../Lightmode/LightMode.css';
 
 const PrincipalText = ({title, content}) => {
   return (
