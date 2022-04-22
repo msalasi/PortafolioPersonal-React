@@ -9,18 +9,11 @@ function LightMode() {
         console.log("Se cambio a ", localStorage.getItem('setTheme'));
     } else {
         document.body.classList.remove('light');
+        console.log("Se cambio a modo dark");
         localStorage.removeItem('setTheme');
-        console.log("Se cambio a ", localStorage.getItem('setTheme'));
     }
 
-
-    if (localStorage.getItem('setTheme')) {
-        console.log("existe el local");
-        document.body.className = 'light';
-        darkCheck.checked = true;
-    }else{
-        console.log("no existe el local");
-    }
+    
 
     return (
         <div></div>
