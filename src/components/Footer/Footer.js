@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer>
-        <p>© 2022 Michael Salas. All Rights Reserved.</p>
+        <p>© 2022 Michael Salas I. All Rights Reserved.</p>
     </footer>
   )
 }
