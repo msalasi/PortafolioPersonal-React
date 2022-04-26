@@ -2,7 +2,7 @@ import React from 'react'
 import './LightMode.css';
 
 function LightMode() {
-    const darkCheck = document.getElementById('flexSwitchCheckChecked');
+    const darkCheck = document.getElementById('toggle');
     if (darkCheck.checked) {
         document.body.classList.add('light');
         localStorage.setItem('setTheme', 'light');

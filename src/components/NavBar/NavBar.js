@@ -8,7 +8,7 @@ import { useEffect } from "react";
 
 const NavBar = () => {
   useEffect(() => {
-    const darkCheck = document.getElementById('flexSwitchCheckChecked');
+    const darkCheck = document.getElementById('toggle');
     if (localStorage.getItem('setTheme')) {
         document.body.className = 'light';
         darkCheck.checked = true;
@@ -38,7 +38,8 @@ const NavBar = () => {
                 <div className="container-light-mode">
                   <h1>Light Mode</h1>
                   <div className="form-check form-switch">
-                      <input className="form-check-input" type="checkbox" id="flexSwitchCheckChecked" onClick={LightMode}/>
+                      <input type="checkbox" className="form-check-input" id="toggle" onClick={LightMode}/>
+                      <label htmlFor="toggle" className="button"></label>
                   </div>
                 </div>
               </Nav>

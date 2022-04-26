@@ -9,7 +9,7 @@
 
 .container-light-mode {
     align-items: center;
-    gap: 10px;
+    gap: 0px;
     display: flex;
 }
 
