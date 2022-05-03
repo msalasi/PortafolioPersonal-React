@@ -99,4 +99,11 @@ body.light{
 }
 /*Home Section*/
 
+/*Works section*/
+.light .h3-projects,
+.light .work-h2,
+.light .work-p {
+    color: #202023;
+}
 
+/*Works section*/

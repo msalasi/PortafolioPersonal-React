@@ -26,7 +26,52 @@
 }
 
 .article-projects {
-    width: 30%;
+    width: 50%;
     margin: 10rem auto;
 }
 
+.work-p {
+    font-family: 'dongle-regular';
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.work{
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 90em) {
+    .article-projects {
+        width: 60%;
+        margin: 10rem auto;
+    } 
+}
+
+@media only screen and (max-width: 64em) {
+    .article-projects {
+        width: 70%;
+        margin: 10rem auto;
+    } 
+}
+
+@media only screen and (max-width: 48em) {
+    .article-projects {
+        width: 80%;
+        margin: 10rem auto;
+    } 
+}
+
+@media only screen and (max-width: 27em) {
+    .article-projects {
+        width: 95%;
+        margin: 10rem auto;
+    } 
+
+    .row-1-works {
+        display: block;
+    }
+}
