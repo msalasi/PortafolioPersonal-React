@@ -1,11 +1,30 @@
 import React from 'react'
 import '../../components/Lightmode/LightMode.css';
+import TodoAppImg from '../../assets/Img/TodoApp.png';
+import './Works.css';
 
 const Works = () => {
   return (
-    <div className='container-h1-prueba'>
-      
-    </div>
+  <>
+    <article className='article-projects'>
+      <div className='main-container-projects'>
+        <h3 className='h3-projects'>My Works</h3>
+        <div className='row-1-works'>
+          <div className='work'>
+            <img className='img-todo-app' src={TodoAppImg} alt='Todo App'></img>
+            <h2 className='work-h2'>Todo App</h2>
+            <p className='work-p'>Aplication for add or remove works</p>
+          </div>
+          <div className='work'>
+            <img className='img-todo-app' src={TodoAppImg} alt='Todo App'></img>
+            <h2 className='work-h2'>Todo App</h2>
+            <p className='work-p'>Aplication for add or remove works</p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </>
+    
   )
 }
 

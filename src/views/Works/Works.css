@@ -1,0 +1,32 @@
+.img-todo-app {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.work-h2 {
+    color: white;
+    font-family: 'pixel-font';
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.row-1-works {
+    display: flex;
+    gap: 65px;
+}
+
+.h3-projects {
+    color: white;
+    font-family: 'pixel-font';
+    font-size: 2.5rem;
+}
+
+.main-container-projects {
+    width: 100%;
+}
+
+.article-projects {
+    width: 30%;
+    margin: 10rem auto;
+}
+
