@@ -12,12 +12,12 @@ const Works = () => {
         <div className='row-1-works'>
           <div className='work'>
             <img className='img-todo-app' src={TodoAppImg} alt='Todo App'></img>
-            <h2 className='work-h2'>Todo App</h2>
+            <a className='work-h2' href="https://todoaplication.netlify.app/" target="_blank" rel="noreferrer">Todo App</a>
             <p className='work-p'>Aplication for add or remove works</p>
           </div>
           <div className='work'>
             <img className='img-todo-app' src={TodoAppImg} alt='Todo App'></img>
-            <h2 className='work-h2'>Todo App</h2>
+            <a className='work-h2' href="https://todoaplication.netlify.app/" target="_blank" rel="noreferrer">Todo App</a>
             <p className='work-p'>Aplication for add or remove works</p>
           </div>
         </div>
