@@ -1,5 +1,6 @@
 import React from 'react'
 import TodoAppImg from '../../assets/Img/TodoApp.png';
+import CovidTracker from '../../assets/Img/covidtracker-modded.png';
 import './Works.css';
 import '../../components/Lightmode/LightMode.css';
 
@@ -13,12 +14,12 @@ const Works = () => {
           <div className='work'>
             <img className='img-todo-app' src={TodoAppImg} alt='Todo App'></img>
             <a className='work-h2' href="https://todoaplication.netlify.app/" target="_blank" rel="noreferrer">Todo App</a>
-            <p className='work-p'>Gestionador de tareas basico hecho con React js</p>
+            <p className='work-p'>Aplication for add or remove works</p>
           </div>
           <div className='work'>
-            <img className='img-todo-app' src={TodoAppImg} alt='Todo App'></img>
-            <a className='work-h2' href="https://todoaplication.netlify.app/" target="_blank" rel="noreferrer">Todo App</a>
-            <p className='work-p'>Aplication for add or remove works</p>
+            <img className='img-todo-app' src={CovidTracker} alt='Covid Tracker'></img>
+            <a className='work-h2' href="https://covidtracker-g.netlify.app/" target="_blank" rel="noreferrer">Covid Tracker</a>
+            <p className='work-p'>Covid tracker aplication</p>
           </div>
         </div>
       </div>
