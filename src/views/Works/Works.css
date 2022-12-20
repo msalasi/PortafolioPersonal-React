@@ -13,13 +13,16 @@
 
 .row-1-works {
     display: flex;
-    gap: 65px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .h3-projects {
     color: white;
     font-family: 'pixel-font';
     font-size: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 .main-container-projects {
@@ -40,6 +43,7 @@
 
 .work{
     text-align: center;
+    width: 300px;
 }
 
 
@@ -64,6 +68,16 @@
 
     .img-todo-app {
         height: 70%;
+    }
+
+    .row-1-works{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .work{
+        width: 300px;
     }
 }
 
@@ -90,5 +104,10 @@
 
     .img-todo-app {
         height: 70%;
+    }
+
+    .work {
+        width: 90%;
+        margin: 0 auto;
     }
 }
